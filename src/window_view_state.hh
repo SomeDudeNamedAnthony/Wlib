@@ -1,0 +1,10 @@
+#ifndef WLIB_WINDOW_VIEW_STATE
+#define WLIB_WINDOW_VIEW_STATE
+
+typedef enum WindowViewState {
+        WINDOW_STATE_UNDEFINED,
+        WINDOW_STATE_MINIMIZED,
+        WINDOW_STATE_MAXIMIZED
+    } WindowViewState;
+
+#endif //WLIB_WINDOW_VIEW_STATE
